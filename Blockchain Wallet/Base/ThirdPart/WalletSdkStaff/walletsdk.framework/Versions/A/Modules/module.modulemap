@@ -1,0 +1,10 @@
+framework module "Walletsdk" {
+	header "ref.h"
+    header "Api.objc.h"
+    header "Sdk.objc.h"
+    header "Uv1.objc.h"
+    header "Universe.objc.h"
+    header "Walletsdk.h"
+
+    export *
+}

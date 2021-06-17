@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20B50" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Coin" representedClassName="Coin" isAbstract="YES" syncable="YES">
+        <attribute name="account" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="balance" optional="YES" attributeType="String"/>
+        <attribute name="change" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="coin" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="coin_tag" optional="YES" attributeType="String"/>
+        <attribute name="contact_address" optional="YES" attributeType="String"/>
+        <attribute name="decimals" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="index" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="is_backup" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="is_upload" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="key_id" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="wallet_id" optional="YES" attributeType="String"/>
+        <relationship name="wallet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Wallet" inverseName="coins" inverseEntity="Wallet"/>
+    </entity>
+    <entity name="Contact" representedClassName="Contact" isAbstract="YES" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="des" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Record" representedClassName="Record" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="amount" optional="YES" attributeType="String"/>
+        <attribute name="block_height" optional="YES" attributeType="String"/>
+        <attribute name="coin_tag" optional="YES" attributeType="String"/>
+        <attribute name="confirmations" optional="YES" attributeType="String"/>
+        <attribute name="gas_price" optional="YES" attributeType="String"/>
+        <attribute name="memo" optional="YES" attributeType="String"/>
+        <attribute name="miner_fee" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="nonce" optional="YES" attributeType="String"/>
+        <attribute name="result" optional="YES" attributeType="String"/>
+        <attribute name="start_time" optional="YES" attributeType="String"/>
+        <attribute name="time" optional="YES" attributeType="String"/>
+        <attribute name="to_address" optional="YES" attributeType="String"/>
+        <attribute name="trusted" optional="YES" attributeType="String"/>
+        <attribute name="tx_id" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="valid" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Trade" representedClassName="Trade" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="des" optional="YES" attributeType="String"/>
+        <attribute name="firstCoin" optional="YES" attributeType="String"/>
+        <attribute name="getShare" optional="YES" attributeType="String"/>
+        <attribute name="lastCoin" optional="YES" attributeType="String"/>
+        <attribute name="result" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Wallet" representedClassName="Wallet" syncable="YES">
+        <attribute name="is_backup" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="wallet_id" optional="YES" attributeType="String"/>
+        <relationship name="coins" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Coin" inverseName="wallet" inverseEntity="Coin"/>
+    </entity>
+    <elements>
+        <element name="Coin" positionX="-54" positionY="18" width="128" height="269"/>
+        <element name="Contact" positionX="-63" positionY="-18" width="128" height="89"/>
+        <element name="Record" positionX="-54" positionY="63" width="128" height="299"/>
+        <element name="Trade" positionX="-45" positionY="90" width="128" height="149"/>
+        <element name="Wallet" positionX="-45" positionY="36" width="128" height="119"/>
+    </elements>
+</model>

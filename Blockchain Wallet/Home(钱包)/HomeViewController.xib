@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController">
+            <connections>
+                <outlet property="tableView" destination="hjF-VG-Xip" id="S89-jY-3TA"/>
+                <outlet property="tableViewToTop" destination="HTA-e0-tf1" id="V7O-Zr-v4X"/>
+                <outlet property="toolView" destination="d2Y-8r-2tt" id="mFk-bF-5ih"/>
+                <outlet property="toolViewToHeight" destination="oVP-Us-vH6" id="f21-Pp-7hd"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="walletNameBtn" destination="loD-AA-ilq" id="Hlq-HP-tHo"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" contentViewInsetsToSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hjF-VG-Xip">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="QLv-2g-Uzv"/>
+                        <outlet property="delegate" destination="-1" id="3Md-LP-QPX"/>
+                    </connections>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d2Y-8r-2tt">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="loD-AA-ilq">
+                            <rect key="frame" x="20" y="66" width="339" height="24"/>
+                            <state key="normal" title="wallet name" image="icon_home_left">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="selectWalletAction:" destination="-1" eventType="touchUpInside" id="UAD-Qt-6ks"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H3c-Ya-gsl">
+                            <rect key="frame" x="364" y="65" width="50" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="8Is-1R-FFe"/>
+                            </constraints>
+                            <state key="normal" image="icon_home_right"/>
+                            <connections>
+                                <action selector="scanAction:" destination="-1" eventType="touchUpInside" id="FtH-86-uzu"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="loD-AA-ilq" firstAttribute="leading" secondItem="d2Y-8r-2tt" secondAttribute="leading" constant="20" id="OOy-Tl-Tn0"/>
+                        <constraint firstItem="H3c-Ya-gsl" firstAttribute="leading" secondItem="loD-AA-ilq" secondAttribute="trailing" constant="5" id="ZC0-mf-OXY"/>
+                        <constraint firstAttribute="trailing" secondItem="H3c-Ya-gsl" secondAttribute="trailing" id="Zyd-Zo-gVs"/>
+                        <constraint firstAttribute="bottom" secondItem="H3c-Ya-gsl" secondAttribute="bottom" constant="10" id="nZf-Bo-rgW"/>
+                        <constraint firstAttribute="height" constant="100" id="oVP-Us-vH6"/>
+                        <constraint firstAttribute="bottom" secondItem="loD-AA-ilq" secondAttribute="bottom" constant="10" id="ybV-LB-Igl"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="hjF-VG-Xip" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="2e3-Wq-4YO"/>
+                <constraint firstItem="d2Y-8r-2tt" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="4J9-Oe-qi3"/>
+                <constraint firstItem="hjF-VG-Xip" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="HTA-e0-tf1"/>
+                <constraint firstItem="d2Y-8r-2tt" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="Hie-c9-Il4"/>
+                <constraint firstItem="hjF-VG-Xip" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="nQZ-vO-8KP"/>
+                <constraint firstItem="d2Y-8r-2tt" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="qUK-iW-KGO"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="hjF-VG-Xip" secondAttribute="bottom" id="uns-Cy-4Zh"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="150.66964285714286"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_home_left" width="24" height="24"/>
+        <image name="icon_home_right" width="24" height="25"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

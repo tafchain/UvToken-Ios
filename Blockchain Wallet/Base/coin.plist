@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>layer2</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>zkSync</string>
+			<key>img</key>
+			<string>icon_zkSync</string>
+			<key>url</key>
+			<string>https://wallet.zksync.io</string>
+			<key>desc</key>
+			<string>安全、去信任化的以太坊二层网络</string>
+			<key>language</key>
+			<string>Secure, trustless Ethereum Layer Network</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Chainlist</string>
+			<key>img</key>
+			<string>icon_Chainlist</string>
+			<key>url</key>
+			<string>https://chainlist.org/</string>
+			<key>desc</key>
+			<string>轻松切换不同 Layer 2, Optimism, xDAI, BSC, Heco 等以太坊兼容公链</string>
+			<key>language</key>
+			<string>Easily switch between different Layer 2, Optimism, XDAI, BSC, HECO and other Ethereum compatible public chains</string>
+		</dict>
+	</array>
+	<key>licai</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>AAVE</string>
+			<key>img</key>
+			<string>icon_AAVE</string>
+			<key>url</key>
+			<string>https://app.aave.com/?referral=23</string>
+			<key>desc</key>
+			<string>去中心化理财, 抵押 DAI 获取稳定收益</string>
+			<key>language</key>
+			<string>Decentralized financial management, mortgage DAI to obtain stable income</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Compound</string>
+			<key>img</key>
+			<string>icon_Compound</string>
+			<key>url</key>
+			<string>https://app.compound.finance/?hbg%3D070a0e%26hfg%3Dffffff%26lbg%3D070a0e%26lfg%3Dd9e3f0%26bbg%3D070a0e%26sfg%3D1</string>
+			<key>desc</key>
+			<string>去中心化理财, 抵押 DAI 获取稳定收益</string>
+			<key>language</key>
+			<string>Decentralized financial management, mortgage DAI to obtain stable income</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Curve</string>
+			<key>img</key>
+			<string>icon_Curve</string>
+			<key>url</key>
+			<string>https://www.curve.fi/</string>
+			<key>desc</key>
+			<string>稳定币优化的链上算法做市商，为你带来更好的交易深度</string>
+			<key>language</key>
+			<string>Stablecoin optimized on-chain algorithmic market makers, bringing you better trading depth</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>dForce</string>
+			<key>img</key>
+			<string>icon_dForce</string>
+			<key>url</key>
+			<string>https://app.dforce.network/#/lending/</string>
+			<key>desc</key>
+			<string>通用型去中心化借贷+超额抵押多货币贷款</string>
+			<key>language</key>
+			<string>General-purpose decentralized lending + over-collateralized multi-currency loans</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>小矿工</string>
+			<key>img</key>
+			<string>icon_小矿工</string>
+			<key>url</key>
+			<string>https://www.oxbtc.com/miner/?from=imtoken</string>
+			<key>desc</key>
+			<string>全球 TOP 级别云算力平台，50元就能挖以太坊</string>
+			<key>language</key>
+			<string>Global TOP level cloud computing platform, 50 yuan can dig Ethereum</string>
+			<key>name_en</key>
+			<string>OXBTC</string>
+		</dict>
+	</array>
+	<key>nft</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>iNFT</string>
+			<key>img</key>
+			<string>icon_iNFT</string>
+			<key>url</key>
+			<string>https://inft.io/</string>
+			<key>desc</key>
+			<string>非同质化资产（NFT）交易平台</string>
+			<key>language</key>
+			<string>Non-homogeneous asset (NFT) trading platform</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rarible</string>
+			<key>img</key>
+			<string>icon_Rarible</string>
+			<key>url</key>
+			<string>https://rarible.com/rari</string>
+			<key>desc</key>
+			<string>区块链艺术品创建及交易平台</string>
+			<key>language</key>
+			<string>Blockchain art creation and trading platform</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>OpenSea</string>
+			<key>img</key>
+			<string>icon_OpenSea</string>
+			<key>url</key>
+			<string>https://opensea.io/?ref=0xb9e29984fe50602e7a619662ebed4f90d93824c7</string>
+			<key>desc</key>
+			<string>全球知名加密收藏品交易平台</string>
+			<key>language</key>
+			<string>The world famous crypto collectibles trading platform</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Nifty Gateway</string>
+			<key>img</key>
+			<string>icon_NiftyGateway</string>
+			<key>url</key>
+			<string>https://niftygateway.com/</string>
+			<key>desc</key>
+			<string>独一无二的NFT 交易管理平台</string>
+			<key>language</key>
+			<string>Unique NFT transaction management platform</string>
+		</dict>
+	</array>
+	<key>game</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>无损彩票</string>
+			<key>img</key>
+			<string>icon_无损彩票</string>
+			<key>url</key>
+			<string>https://app.pooltogether.com/?hbg%3D290c59%26hfg%3Dffffff%26lbg%3D290c59%26lfg%3Dd9e3f0%26bbg%3D290c59%26sfg%3D1</string>
+			<key>desc</key>
+			<string>不会损失本金的彩票</string>
+			<key>language</key>
+			<string>A lottery ticket that does not lose its principal</string>
+			<key>name_en</key>
+			<string>PoolTogether</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>ChainZ Arena</string>
+			<key>img</key>
+			<string>icon_ChainZArena</string>
+			<key>url</key>
+			<string>https://www.chainzarena.com/?platform=imtoken</string>
+			<key>desc</key>
+			<string>首款可跨链 RPG 游戏</string>
+			<key>language</key>
+			<string>The first cross-chain RPG</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>League of Kingdoms</string>
+			<key>img</key>
+			<string>icon_LeagueofKingdoms</string>
+			<key>url</key>
+			<string>https://www.chainzarena.com/?platform=imtoken</string>
+			<key>desc</key>
+			<string>首款可跨链 RPG 游戏</string>
+			<key>language</key>
+			<string>The first cross-chain RPG</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>云斗龙</string>
+			<key>img</key>
+			<string>icon_云斗龙</string>
+			<key>url</key>
+			<string>https://hyperdragons.alfakingdom.com/</string>
+			<key>desc</key>
+			<string>可战斗的区块链游戏, 领养你的专属龙</string>
+			<key>language</key>
+			<string>Combat Blockchain game, adopt your own dragon</string>
+			<key>name_en</key>
+			<string>HyperDragons</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>区块链萌宠</string>
+			<key>img</key>
+			<string>icon_区块链萌宠</string>
+			<key>url</key>
+			<string>https://blockchaincuties.com/?utm_source=referral&amp;utm_medium=imtoken&amp;lang=ZH</string>
+			<key>desc</key>
+			<string>数字宠物收藏品冒险游戏</string>
+			<key>language</key>
+			<string>Digital pet collection adventure game</string>
+			<key>name_en</key>
+			<string>Blockchain Cuties</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>DozerBird</string>
+			<key>img</key>
+			<string>icon_DozerBird</string>
+			<key>url</key>
+			<string>https://dappbirds.com/dapp-info/detail?id=3215</string>
+			<key>desc</key>
+			<string>全球领先的去中心化应用平台</string>
+			<key>language</key>
+			<string>The world&apos;s leading decentralized application platform</string>
+		</dict>
+	</array>
+	<key>other</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Dapp.com</string>
+			<key>img</key>
+			<string>icon_Dapp.com</string>
+			<key>url</key>
+			<string>https://www.dapp.com</string>
+			<key>desc</key>
+			<string>「一站式」体验的 DApp 应用商店</string>
+			<key>language</key>
+			<string>A “one-stop” dApp store for the experience</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ethfans</string>
+			<key>img</key>
+			<string>icon_Ethfans</string>
+			<key>url</key>
+			<string>https://ethfans.org/</string>
+			<key>desc</key>
+			<string>专业的以太坊技术社区</string>
+			<key>language</key>
+			<string>Professional Ethereum technology community</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Unstoppable Domains</string>
+			<key>img</key>
+			<string>icon_UnstoppableDomains</string>
+			<key>url</key>
+			<string>https://unstoppabledomains.com/r/imtoken</string>
+			<key>desc</key>
+			<string>拥有属于你自己的区块链域名 .crypto</string>
+			<key>language</key>
+			<string>Own your own blockchain domain name. Crypto</string>
+		</dict>
+	</array>
+	<key>swap</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>1inch</string>
+			<key>img</key>
+			<string>icon_1inch</string>
+			<key>url</key>
+			<string>https://app.1inch.io</string>
+			<key>desc</key>
+			<string>去中心化聚合交易平台</string>
+			<key>language</key>
+			<string>Decentralized aggregation trading platform</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Uniswap</string>
+			<key>img</key>
+			<string>icon_Uniswap</string>
+			<key>url</key>
+			<string>https://uniswap.token.im</string>
+			<key>desc</key>
+			<string>去中心化交易所</string>
+			<key>language</key>
+			<string>Decentralized exchange</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SushiSwap</string>
+			<key>img</key>
+			<string>icon_SushiSwap</string>
+			<key>url</key>
+			<string>https://sushiswap-interface-teamsushi.vercel.app/swap</string>
+			<key>desc</key>
+			<string>去中心化交易所</string>
+			<key>language</key>
+			<string>Decentralized exchange</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Balancer</string>
+			<key>img</key>
+			<string>icon_Balancer</string>
+			<key>url</key>
+			<string>https://balancer.exchange?hbg%3D1c1d26%26hfg%3Dffffff%26title%3DBalancer%20Exchange%26title_left%3D1%26lbg%3D1c1d26%26lfg%3Dd9e3f0%26bbg%3D1c1d26%26sfg%3D1</string>
+			<key>desc</key>
+			<string>非托管投资组合管理，提供流动性与价格信息</string>
+			<key>language</key>
+			<string>Unmanaged portfolio management, providing liquidity and price information</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>dYdX</string>
+			<key>img</key>
+			<string>icon_dYdX</string>
+			<key>url</key>
+			<string>https://dydx.consenlabs.com/?locale=zh-CN</string>
+			<key>desc</key>
+			<string>全球领先的去中心化合约交易所</string>
+			<key>language</key>
+			<string>The world&apos;s leading decentralized perpetuals exchange</string>
+		</dict>
+	</array>
+	<key>hot</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Uniswap</string>
+			<key>img</key>
+			<string>icon_Uniswap</string>
+			<key>url</key>
+			<string>https://uniswap.token.im</string>
+			<key>desc</key>
+			<string>去中心化交易所</string>
+			<key>language</key>
+			<string>Decentralized exchange</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>小矿工</string>
+			<key>img</key>
+			<string>icon_小矿工</string>
+			<key>url</key>
+			<string>https://www.oxbtc.com/miner/?from=imtoken</string>
+			<key>desc</key>
+			<string>全球 TOP 级别云算力平台，50元就能挖以太坊</string>
+			<key>language</key>
+			<string>Global TOP level cloud computing platform, 50 yuan can dig Ethereum</string>
+			<key>name_en</key>
+			<string>OXBTC</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>zkSync</string>
+			<key>img</key>
+			<string>icon_zkSync</string>
+			<key>url</key>
+			<string>https://wallet.zksync.io</string>
+			<key>desc</key>
+			<string>安全、去信任化的以太坊二层网络</string>
+			<key>language</key>
+			<string>Secure, trustless Ethereum Layer Network</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Curve</string>
+			<key>img</key>
+			<string>icon_Curve</string>
+			<key>url</key>
+			<string>https://www.curve.fi/</string>
+			<key>desc</key>
+			<string>稳定币优化的链上算法做市商，为你带来更好的交易深度</string>
+			<key>language</key>
+			<string>Stablecoin optimized on-chain algorithmic market makers, bringing you better trading depth</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Snapshot</string>
+			<key>img</key>
+			<string>icon_Snapshot</string>
+			<key>url</key>
+			<string>https://snapshot.page/#/tokenlon</string>
+			<key>desc</key>
+			<string>参与所有 DeFi 项目的社区治理</string>
+			<key>language</key>
+			<string>Participate in community governance of all DEFI projects</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>iNFT</string>
+			<key>img</key>
+			<string>icon_iNFT</string>
+			<key>url</key>
+			<string>https://inft.io/</string>
+			<key>desc</key>
+			<string>非同质化资产（NFT）交易平台</string>
+			<key>language</key>
+			<string>Non-homogeneous asset (NFT) trading platform</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Balancer</string>
+			<key>img</key>
+			<string>icon_Balancer</string>
+			<key>url</key>
+			<string>https://balancer.exchange?hbg%3D1c1d26%26hfg%3Dffffff%26title%3DBalancer%20Exchange%26title_left%3D1%26lbg%3D1c1d26%26lfg%3Dd9e3f0%26bbg%3D1c1d26%26sfg%3D1</string>
+			<key>desc</key>
+			<string>非托管投资组合管理，提供流动性与价格信息</string>
+			<key>language</key>
+			<string>Unmanaged portfolio management, providing liquidity and price information</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>dForce</string>
+			<key>img</key>
+			<string>icon_dForce</string>
+			<key>url</key>
+			<string>https://app.dforce.network/#/lending/</string>
+			<key>desc</key>
+			<string>通用型去中心化借贷+超额抵押多货币贷款</string>
+			<key>language</key>
+			<string>General-purpose decentralized lending + over-collateralized multi-currency loans</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ethfans</string>
+			<key>img</key>
+			<string>icon_Ethfans</string>
+			<key>url</key>
+			<string>https://ethfans.org/</string>
+			<key>desc</key>
+			<string>专业的以太坊技术社区</string>
+			<key>language</key>
+			<string>Professional Ethereum technology community</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>AAVE</string>
+			<key>img</key>
+			<string>icon_AAVE</string>
+			<key>url</key>
+			<string>https://app.aave.com/?referral=23</string>
+			<key>desc</key>
+			<string>去中心化理财, 抵押 DAI 获取稳定收益</string>
+			<key>language</key>
+			<string>Decentralized financial management, mortgage DAI to obtain stable income</string>
+		</dict>
+	</array>
+</dict>
+</plist>

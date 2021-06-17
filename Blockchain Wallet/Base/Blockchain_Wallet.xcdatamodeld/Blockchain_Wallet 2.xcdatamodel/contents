@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17511" systemVersion="20B50" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Coin" representedClassName="Coin" isAbstract="YES" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="wallet_id" optional="YES" attributeType="String"/>
+        <relationship name="wallet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Wallet" inverseName="coins" inverseEntity="Wallet"/>
+    </entity>
+    <entity name="Contact" representedClassName="Contact" isAbstract="YES" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="des" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Wallet" representedClassName="Wallet" syncable="YES">
+        <attribute name="is_backup" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="wallet_id" optional="YES" attributeType="String"/>
+        <relationship name="coins" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Coin" inverseName="wallet" inverseEntity="Coin"/>
+    </entity>
+    <elements>
+        <element name="Coin" positionX="-54" positionY="18" width="128" height="89"/>
+        <element name="Contact" positionX="-63" positionY="-18" width="128" height="89"/>
+        <element name="Wallet" positionX="-45" positionY="36" width="128" height="119"/>
+    </elements>
+</model>

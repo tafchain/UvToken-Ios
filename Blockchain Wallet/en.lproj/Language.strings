@@ -1,0 +1,580 @@
+/* 
+  Language.strings
+  Blockchain Wallet
+
+  Created by Panerly on 2020/12/25.
+  
+*/
+
+//tabbar
+"钱包" = "Wallet";
+"行情" = "Market";
+"交易" = "Trade";
+"我的" = "My";
+"理财" = "Financing";
+
+//创建钱包
+"多链钱包" = "Multi Chain Wallet";
+"支持BTC、ETH、TRX 等主流公链" = "Support mainstream public chains such as BTC, Eth and TRX";
+"创建钱包" = "Create wallet";
+"没有钱包 ， 首次使用" = "No wallet, first use";
+"导入钱包" = "Import wallet";
+"已有钱包，支持助记词、私钥等方式导入" = "Existing wallet, support mnemonics, private key and other ways to import";
+"钱包名称" = "Wallet name";
+"请输入名称" = "Please enter name";
+"密码" = "Password";
+"请输入密码" = "Please input password";
+"1-20位字符" = "1-20 characters";
+"请输入1-20位字符" = "Please input 1-20 characters";
+"至少8位字符，包含大小写字母和数字" = "At least 8 characters, including upper and lower case letters and numbers";
+"重复密码" = "Repeat password";
+"请再次输入密码" = "Please input the password again";
+"我已阅读并同意" = "I have read and agree";
+"《使用条款》" = "《Terms of use》";
+"创建" = "Create";
+"添加币种" = "Add currency";
+"即将支持更多主链币种" = "More main chain currencies will be supported soon";
+"正在为您创建钱包中..." = "Creating wallet for you...";
+"两次输入的密码不一致" = "The two passwords are inconsistent";
+"单链钱包" = "Single Chain Wallet";
+"多链钱包" = "Multi-chain wallet";
+"创建失败，请重试" = "Failed to create. Please try again";
+
+//导入钱包
+"钱包服务器不保存您的助记词等信息" = "Wallet server does not save your mnemonics and other information";
+"助记词导入" = "Mnemonic words import";
+"私钥导入" = "Private key import";
+"请填写您的助记词，用空格分开" = "Please fill in your mnemonics and separate them with spaces";
+"导入" = "Import";
+"请选择导入的主链钱包" = "Please select the imported main chain wallet";
+"请输入12个助记词！" = "Please enter 12 mnemonic words!";
+"当前助记词拼写错误，请检查" = "Spelling error of current mnemonic word, please check";
+"请填写私钥地址!" = "Please fill in the private key address!";
+"重复导入" = "Repeat import";
+"已导入该钱包，无法重复导入" = "The wallet has already been imported and cannot be imported again";
+"重新导入" = "Re import";
+"完成" = "Complete";
+
+//导入指定种类钱包私钥地址
+"导入BTC钱包" = "Import BTC wallet";
+"导入ETH钱包" = "Import ETH wallet";
+"导入TAF钱包" = "Import TAF wallet";
+"请填写您的BTC主链钱包私钥地址" = "Please fill in the private key address of your BTC Main Chain Wallet";
+"请填写您的ETH主链钱包私钥地址" = "Please fill in the private key address of your ETH Main Chain Wallet";
+"请填写您的TRX主链钱包私钥地址" = "Please fill in the private key address of your TRX Main Chain Wallet";
+"请填写您的TAF主链钱包私钥地址" = "Please fill in the private key address of your TAF Main Chain Wallet";
+"请输入正确的私钥地址" = "Please enter the correct private key address";
+"导入成功" = "Imported successfully";
+"正在导入..." = "Importing...";
+"已存在，请勿重复导入" = "Already exists. Please do not import it again";
+
+//创建钱包提醒
+"已为您创建去中心化的钱包" = "A decentralized wallet has been created for you";
+"提示" = "Tips";
+"助记词等于整个钱包的所有控制权，请妥善保管助记词丢失将无法找回，请务必备份" = "Mnemonics are equal to all the control rights of the whole wallet, please keep them properly. If the mnemonics are lost, they will not be retrieved. Please make sure to back them up";
+"立即备份" = "Backup now";
+"稍后备份" = "Back up later";
+
+//备份助记词
+"备份助记词" = "Backup mnemonics";
+"截屏分享风险提醒" = "1. Do not take screen capture, share and other operations in the case of networking, in order to prevent property losses caused by third-party malware collection
+
+2. The wallet server does not save your mnemonics and other information, please make a full backup ";
+"知道了" = "I know";
+"请在安全的环境下按顺序抄些一下助记词，并妥善保存" = "Please copy some mnemonics in order in a safe environment and keep them properly";
+"已完成备份" = "Backup completed";
+"私钥备份风险提醒" = "Do not take screen capture, share and other operations in the case of networking, in order to prevent property losses caused by third-party malware collection";
+
+//确认助记词
+"确认助记词" = "Confirmation mnemonics";
+"请按顺序点击助记词，以确认您的备份正确性" = "Please click the mnemonics in order to confirm the correctness of your backup";
+"助记词顺序错误，请仔细检查" = "The order of mnemonics is wrong. Please check it carefully";
+
+//切换语言
+"语言切换成功！" = "Language switch successfully!";
+
+//我的
+"地址簿" = "Address Book";
+"语言切换" = "Language Switch";
+"货币单位" = "Currency Unit";
+"交易密码" = "Transaction Password";
+"关于我们" = "About Us";
+"暂无数据" = "No data available";
+"新建地址" = "New address";
+"保存" = "Save";
+"类型" = "Type";
+"名称" = "Name";
+"地址" = "Address";
+"描述" = "Describe";
+"非必填" = "Not required";
+"删除" = "Delete";
+"删除成功" = "Successfully deleted";
+"保存成功" = "Saved successfully";
+"修改成功" = "Modified successfully";
+"修改失败" = "Modification failed";
+"输入密码" = "Input password";
+"货币单位切换成功！" = "Currency unit switch successfully!";
+"版本更新" = "Version update";
+"当前版本" = "Current version";
+"已经是最新版本了" = "It's the latest version";
+"编辑地址" = "Edit address";
+
+//全局
+"请检查网络" = "Please check the network";
+"加载失败" = "Loading failed";
+"是否重试？" = "Try again?";
+"重试" = "Try again";
+"请重试" = "Please try again";
+"取消" = "Cancel";
+"确定" = "OK";
+"立即更新" = "Update now";
+"相机授权提示" = "Camera not authorized";
+"未检测到您的摄像头" = "Can not find Camera";
+
+//首页钱包
+"资产总值" = "Total assets";
+"安全提醒" = "Safety reminder";
+"安全提醒内容" = "your wallet has not been backed up. If you forget your password, delete your app or lose your mobile phone, your assets will be lost. Please back up your wallet immediately!";
+"立即备份" = "Backup now";
+"资产" = "Asset";
+"记录" = "Record";
+"离线中" = "Offline";
+"设备已离线" = "Device offline";
+"网络已断开，请检查网络链接。" = "The network is disconnected. Please check the network link.";
+"矿工费率过低，将会影响交易确认时间" = "Miner rate is too low, will affect the transaction confirmation time";
+"矿工费率过高，将会造成矿工费浪费" = "If the miner's fee is too high, it will lead to the waste of miner's fee";
+"当前余额不足" = "Insufficient current balance";
+"主币余额不足以支付矿工费" = "The balance of the main currency is not enough to pay the miner's fee";
+
+//搜索币种
+"请输入要添加的币种名称" = "Please enter the name of the currency to be added";
+"当前仅支持添加 ERC20 代币" = "Only ERC20 token is supported at present";
+"热门币种" = "Popular currency";
+"正在添加..." = "Adding...";
+"添加成功" = "Added successfully";
+"添加失败" = "Add failed";
+"正在删除..." = "Deleting...";
+"删除成功" = "Successfully deleted";
+"添加主链" = "Add main chain";
+
+//钱包管理
+"钱包管理" = "Wallet management";
+"修改密码" = "Change password";
+"备份私钥" = "Backup private key";
+"删除钱包" = "Delete Wallet";
+"温馨提示" = "Tips";
+"你正在使用当前钱包，切换后再删除吧" = "You are using the current wallet, delete it after switching";
+"输入钱包密码" = "Enter Wallet Password";
+"密码错误" = "Wrong password";
+"私钥" = "Private key";
+"管理" = "Manage";
+"确认修改" = "Confirm modification";
+"原密码" = "Original password";
+"请输入原密码" = "Please enter the original password";
+"修改中" = "Changing...";
+"修改钱包名称" = "Change wallet name";
+"请输入新名称" = "Please enter a new name";
+"新名称" = "New name";
+"钱包地址" = "Wallet address";
+
+//扫描
+"复制成功" = "Copy succeeded";
+"扫描结果" = "Scan results";
+"扫一扫" = "Scan";
+"相册" = "Album";
+"正在处理..." = "Processing...";
+"未发现二维码/条形码" = "No QR code / barcode found";
+"将二维码/条码放入框内, 即可自动扫描" = "Put the two-dimensional code / bar code into the box, and it can be scanned automatically";
+"复制" = "Copy";
+
+//收款、转账
+"分享" = "Share";
+"地址二维码" = "Address QR Code";
+"收款地址" = "Receive Address";
+"收款二维码" = "Collection QR code";
+"您的钱包尚未备份，如果出现忘记密码、删除应用或手机丢失等情况将会导致您的资产出现损失，请立即备份钱包！" = "Your wallet has not been backed up. If you forget your password, delete the application or lose your phone, your assets will be lost. Please back up your wallet immediately!";
+"转账地址" = "Transfer address";
+"全部" = "All";
+"备注（Memo）" = "Memo";
+"矿工费" = "Fee";
+"较慢" = "Slower";
+"推荐" = "Recommend";
+"快速" = "Fast";
+"预计" = "Expected";
+"分钟" = "Minutes";
+"自定义" = "Custom";
+"提交" = "Submit";
+"转账金额" = "Transfer amount";
+"收款" = "Receive payment";
+"转账" = "Transfer";
+"挖矿奖励" = "Mining reward";
+"提交中..." = "Submitting...";
+"提交成功" = "Submitted successfully";
+"提交失败" = "Failed to submit";
+"费率" = "Gas Price";
+"详情" = "Details";
+"金额" = "Amount of money";
+"付款地址" = "Payment address";
+"交易哈希" = "Txn Hash";
+"查询详情" = "Inquiry details";
+"暂无详情" = "No details";
+"暂无详情，已复制交易hash" = "No details, copied transaction hash";
+"不能给自己转账" = "You cannot transfer money to yourself";
+"成功" = "Success";
+"等待确认" = "Confirming";
+"已复制" = "Copied";
+"已复制此交易hash值" = "This transaction hash value has been copied";
+"转账详情" = "Transfer details";
+"矿工费不能低于0.00000266BTC" = "The miner's fee should not be less than 0.00000266 BTC";
+"您有一笔未确认的交易" = "You have an unconfirmed transaction";
+"您输入的地址不合法" = "The address you entered is illegal";
+"矿工费获取失败，请检查网络" = "Miner fee acquisition failed, please check the network";
+"交易加速" = "Trade acceleration";
+"支付信息" = "Payment information";
+"加速交易" = "Speed up trading";
+"加速前" = "Before acceleration";
+"加速后" = "After acceleration";
+"确认加速" = "Confirm acceleration";
+"加速" = "Accelerate";
+"推荐(约3分钟)" = "Avg(about 3 minutes)";
+"急速(约15秒)" = "Rapid(about 15 seconds)";
+"打包中" = "Pending";
+"取消交易" = "Cancel the transaction";
+"失败" = "Failed";
+
+//交易
+"加载失败，请重试(网络权限：请在系统“设置”中，为“TAF Wallet”打开网络权限)" = "Loading failed, please try again (network permission: please open network permission for UvToken in system settings)";
+"最近交易" = "Recent Transactions";
+"增加流动性" = "Increase liquidity";
+"移除流动性" = "Remove liquidity";
+"和" = "and";
+"获得" = "get";
+"份额" = "share";
+"自选" = "Watchlist";
+"市值榜" = "Market Value";
+"涨跌榜" = "Change";
+"名称/市值(￥)" = "Market value(￥)";
+"最新价(￥)" = "Price(￥)";
+"24H涨幅" = "24h Change";
+"添加自选" = "Add";
+"取消自选" = "Cancel";
+"已添加" = "Added";
+"已取消" = "Cancelled";
+"请输入Token名称" = "Input Token Name";
+"连接中..." = "Connecting...";
+"已断开与DApp的连接" = "Disconnected from DApp";
+"WallectConnect已连接" = "Wallectconnect connected";
+"是否发起交易" = "Whether to initiate a transaction";
+"继续" = "Continue";
+"已置顶" = "Top";
+"置顶" = "Top";
+"请选择ETH钱包后重试" = "Please select ETH wallet and try again";
+"本地钱包暂无ETH钱包，请创建后重试" = "You have not ETH wallet, please create it and try again";
+"矿工费不足" = "The miner's fee is insufficient";
+"交易已完成，无法加速" = "Transaction completed, cannot accelerate";
+"交易已完成，无法取消" = "Transaction completed, cannot be cancelled";
+"卖出" = "Pay";
+"收到" = "Receive";
+"卖出的数量" = "Pay Amount";
+"收到的数量" = "Receive Amount";
+"预估汇率" = "Rate";
+"预估矿工费" = "Fee";
+"快捷兑换" = "Exchange now";
+"预估" = "Estimate";
+
+//理财
+"去中心化理财" = "Decentralized financial management";
+"访问DAPP提醒" = "The page you visit will jump to the third-party platform. Your use behavior on the third-party platform must agree to the user agreement and other privacy policies of the third-party platform, and the third-party platform shall be solely responsible for you";
+"同意" = "Agree";
+"退出" = "Cancel";
+"借贷理财，支持17币种" = "Loan financing, supporting 17 currencies";
+"存币生息，支持USDT/USDC/DAI" = "Deposit currency to generate interest, support USDT/USDC/DAI";
+"CRV挖矿、认领、投票" = "CRV mining, claiming and voting";
+"稳定币生息，稳定币余额宝" = "Stable currency yields interest, stable currency balance treasure";
+"去中心化聚合交易平台" = "Decentralized aggregation trading platform";
+"去中心化交易所" = "Decentralized exchange";
+"DODO挖矿" = "DODO mining";
+"全球领先的去中心化合约交易所" = "The world's leading decentralized perpetuals exchange";
+"dappAlertContent" = "Your use of the third party DApp will be governed by the user agreement and privacy policy of the third party DApp, and the third party DApp will be directly and solely responsible to you.";
+"DApp连接请求" = "DApp connection request";
+"拒绝" = "Reject";
+"授权" = "Approve";
+"去中心化的借贷和永续合约交易" = "Lending & Margin Trading";
+
+//TAF staff
+"languageBtn" = "ChangeLanguage";
+"clickNoResponse" = "Invalid click";
+"selectCountryTitle" = "Select country / Region";
+"loadingStr" = "loading";
+"inncorrectEmail" = "Please enter the correct email address";
+"xieyi" = "Please check user agreement";
+
+//账户页面
+"clickToLogin" = "Click login";
+"welcomeStr" = "Welcome to TAF chain";
+"authenticationStr" = "Identity Authentication";
+"myPerSaleStr" = "My pre-sale";
+"myPromotionStr" = "My promotion";
+"aboutUsStr" = "About us";
+"settingStr" = "Settings";
+
+
+//设置页面
+"accountStr" = "Account";
+"languageStr" = "Language";
+"changePwdStr" = "Change Password";
+"logoutStr" = "Log out";
+"kycStatusCertifiedStr" = "Certified";
+"kycStatusNotCertifiedStr" = "Not certified";
+"kycStatusCertifying" = "Under review";
+"kycStatusRejected" = "Rejected";
+"kycStatusUnknow" = "Unknown";
+"loginFirstStr" = "Please complete the login first";
+"aboutUsStr" = "About us";
+"versionStr" = "Version";
+"lastedVersionAlertStr" = "The current version is the latest version";
+"subscriptionFundStr" = "Subscription fund";
+"subscriptionQuotaStr" = "Subscription quota";
+"noApplyrecord" = "There is no application record for the time being";
+"语言切换成功" = "Language switch successfully";
+"清理缓存" = "Clear cache";
+"清理中" = "Cleaning up";
+"清理完成" = "Clean up completed";
+
+//我的推广页面
+"promotionUsersStr" = "Promote users";
+"totalRebateAmountStr" = "Accumulated rebate";
+"promotionLinkStr" = "Promotion link";
+"promotionCodeStr" = "Promotion code";
+"copiedStr" = "Copied";
+
+//推广用户
+"noSearchDataStr" = "No records can be found for the time being";
+"timeStr" = "Time";
+"invitedUsersStr" = "Invite users";
+
+//累计返利
+"rebateAmountStr" = "Rebate amount";
+"userStr" = "User";
+"levelStr" = "Level";
+"stageStr" = "Phase";
+"fistPublishStr" = "First publish";
+
+//我的预售
+"firstRound" = "First round";
+"applyMoneyStr" = "Subscription amount";
+
+//身份认证
+"authenticationStr" = "Authentication";
+"searchStr" = "Search";
+"uploadPhoneStr" = "Please upload ID photo";
+"phoneFormAlertStr" = "The photo information of the ID is clearly visible, no modification or obstruction is allowed";
+"frontStr" = "Front";
+"backStr" = "Back";
+"submitStr" = "Submit";
+
+
+//认证结果
+"countryStr" = "Country / Region";
+"lastNameStr" = "First name";
+"firstNameStr" = "Last name";
+"idTypeStr" = "ID Type";
+"idNumStr" = "ID Number";
+"birthdayStr" = "Birthday";
+"telNumStr" = "Tel Number";
+"KYCVerifyingResultAlertStr" = "  Please wait patiently,\n we will review the application as soon as we receive it";
+"KYCVerifyFailResultAlertStr" = "Your identity verification failed";
+"kycResultStr" = "Certification results";
+"kycRefillinStr" = "Reset";
+
+
+//上传认证信息以及照片提示
+"uploading" = "Uploading";
+
+
+//预售页面
+"preSaleLoginAlertStr" = "Only login users can participate in pre-sale";
+"KYCNotVerifiedAlertStr" = "KYC certification is required to apply for purchase";
+"KYCVerifingAlertStr" = "KYC certification is under review, please try again later";
+"KYCRejectedStr" = "KYC certification has been rejected, please re certification";
+"targetAmountStr" = "Target amount";
+"persaleStage2Str" = "First round pre-sale [Phase 2]";
+"persaleStage3Str" = "First round pre-sale [Phase 3]";
+"totalAmountStr" = "Total";
+"amountStr" = "copies";
+"minimumLimitStr" = "The minimum purchase limit is 1 copy";
+"selectAgreementAlertStr" = "Please check the subscription agreement";
+"notstartAlertStr" = "The event has not started yet";
+"finishedAlertStr" = "The event is over";
+"leftAmountStr" = "Remaining copies";
+"priceStr" = "Price";
+"purchaseNumStr" = "Number of copies";
+"needPayNumStr" = "Payable";
+"read&agreeStr" = "Read & Agree";
+"purchaseAgreementStr" = "【Agreement】";
+"payStr" = "Pay";
+"paymentTipsStr" = "Please transfer funds to the above receiving address through a digital currency exchange or digital currency wallet. After receiving the account, the official review will automatically complete the purchase";
+"copySuccessStr" = "Copy successfully";
+"paymentAmountStr" = "Payment amount";
+"receivingAddressStr" = "Receiving address QR code";
+"ominiStr" = "Your independent USDT payment address (Omni)";
+"pay&backStr" = "Complete payment back";
+"soldOutStr" = "Sold out";
+
+
+//弹窗
+"cancelStr" = "Cancel";
+"confirmStr" = "OK";
+
+
+//发现页
+"newsAnnouncementStr" = "News announcement";
+"checkMoreStr" = "More>";
+"whitePaperStr" = "White paper";
+"helpPaperStr" = "Help manual";
+
+
+//首页
+"versionUpdateStr" = "Version update V";
+
+
+//全局
+"reloginAlertStr" = "Login failed. Please login again";
+"retryAlertStr" = "Request failed, please try again";
+"serverErrorStr" = "The server reported an error, please visit again later";
+"timeOutStr" = "Access server timeout, please check the network";
+"connectErrorStr" = "Network link failed, please check the network";
+"uploadSuccessStr" = "Upload successful, please wait";
+"netLostStr" = "Network loss";
+"checkNetworkStr" = "Please check the network";
+"loadFailedStr" = "Loading failed";
+"ifRetryAgainStr" = "Do you want to try again?";
+"retryAgainStr" = "Retry";
+"pleaseRetryStr" = "Please try again";
+"loginSuccessStr" = "Login successful";
+"timerBbtainStr" = "seconds later";
+"reSendCodeStr" = "Resend";
+"sendEmailCodeBtnStr" = "Send";
+"completeStr" = "Complete";
+"loadAllAlertStr" = "All data loaded";
+"confirmLogOutStr" = "Sign out?";
+
+//登录
+"emailBeenRegisteredStr" = "This email has been registered, please login directly";
+"enterEmailAlertStr" = "Please enter email address";
+"enterPwdAlertStr" = "Please input a password";
+"confrimPwdStr" = "Please enter the password again";
+"emailNotRegisteredStr" = "This email is not registered, please register directly";
+"differentInputPwdStr" = "The two passwords are inconsistent";
+"pwdFormatStr" = "Please input 8-30 letters and numbers";
+"modifySuccessStr" = "Reset successful";
+"resetPwdStr" = "Reset Password";
+"enterEmailCodePlaceholderStr" = "Please enter email verification code";
+"enterNewPwdPlaceholderStr" = "Please enter a new password";
+"enterNewPwdAgainPlaceholderStr" = "Please enter the new password again";
+"getbackPwdStr" = "Retrieve password";
+"nextStepStr" = "Next step";
+"registerStr" = "Register";
+"existTaftChainStr" = "Already have a TAF chain account?";
+"loginStr" = "Sign in";
+"setPwdStr" = "Set password";
+"pwdAlertStr" = "At least 8 characters, must contain letters and numbers";
+"recommenderStr" = "Recommender ID (optional)";
+"enterPromotionIdStr" = "Please enter the recommender ID";
+"agreeStr" = "I have read and agree";
+"agreementStr" = "《User agreement》";
+"emailVerifyStr" = "Mailbox verification";
+"checkEmailAlertStr" = "If you don't receive email, please check your email for spam";
+"forgetPwd?Str" = "Forget the password?";
+"withoutTafAccountStr" = "No TAF Chain account yet?";
+
+
+//请求错误信息
+"errorRequestFailedStr" = "request failed";
+"error100101" = "invalid parameter";
+"error100104" = "invalid syntax for email";
+"error100111" = "invalid verification code";
+"error100112" = "verification code expired";
+"error100113" = "invalid verification code";
+"error100115" = "invalid Invitation code ";
+"error100116" = "the email is already registered";
+"error100201" = "invalid parameter";
+"error100202" = "invalid username or password";
+"error100203" = "login failed";
+"error101504" = "new password should be different for the previous";
+"error101701" = "invalid parameter";
+"error101702" = "get verification code failed";
+"error101703" = "Sending frequency exceeds limit";
+"error101704" = "the email is already registered";
+"error102002" = "sold out";
+"error102003" = "get address failed";
+"error102101" = "invalid id type";
+"error102102" = "invalid parameter";
+"error102103" = "invalid parameter";
+"error102104" = "invalid parameter";
+"error102105" = "upload front photo of id failed";
+"error102106" = "upload back photo of id failed";
+"error102601" = "invalid parameter";
+"error102602" = "transfer failed";
+"error102603" = "user does not exist";
+"error102604" = "the amount of transfer should be more than zero";
+"error102605" = "insufficient balance";
+"error102606" = "invalid transfer account, can not be yourself";
+"error102607" = "the receiver should be KYC first";
+"error102801" = "invalid parameter";
+"error102802" = "get verification code failed";
+"error102803" = "get verification code too frequently";
+"error103001" = "authorisation code expired";
+"error101503" = "reset password failed";
+"error101505" = "invalid verification code";
+"error101506" = "verification code expired";
+"error102903" = "Incorrect account or password";
+
+"记录" = "Record";
+"当前额度" = "Current quota";
+"额度" = "Quota";
+"转出额度" = "Transfer out quota";
+"登录密码确认" = "Password";
+"转让" = "Transfer";
+"请输入对方邮箱" = "Please enter email";
+"请输入转让额度" = "Please enter the transfer amount";
+"请输入登录密码" = "Please input login password";
+"转让额度不能小于1TAFT" = "Transfer limit cannot be less than 1 TAFT";
+"转让成功！" = "Successful transfer!";
+"转让额度" = "Transfer limit";
+"转让记录" = "Transfer record";
+"身份验证" = "Authentication";
+"暂无数据" = "No data available";
+"重试" = "Retry";
+"加载失败，请重试(网络权限：请在系统“设置”中，为“Taft”打开网络权限)" = "Loading failed, please try again (network permission: please open network permission for Taft in system settings)";
+
+//行情
+"转账地址" = "Sender";
+"收款地址" = "Receiver";
+"金额" = "Amount";
+"手续费" = "Service charge";
+"兑换成功" = "Conversion success";
+"兑换失败" = "Conversion failed";
+
+//交易-选择货币
+"请输入Token名称" = "Please enter a token name";
+
+//DApp
+"请输入要添加的币种名称" = "Please enter a coin name";
+"热门推荐" = "Hot recommended";
+"搜索DApp名称或输入链接" = "Search for DApp or input DApp url";
+"游戏" = "Game";
+"其他" = "Other";
+
+//TRX转账
+"矿工费说明" = "Description of miners' fees";
+"当用户发起一笔转账交易时，矿工费计算方法如下：\n-优先尝试消耗交易发起者的剩余带宽（Bandwidth Points）\n-如果账户中带宽不足，则消耗交易发起者余额中的TRX，交易的字节数*10 sun（1TRX = 1000000 sun）此处矿工费根据一般交易预估得出，最终实际消耗矿工费由波场网络决定，请知悉。" = "Fees will be calculated according to the following:\n-remaining bandwidth points.\n-remaining TRX. Fees = transaction bytes *1Osun (1TRX=1000000sun). Fees are estimated according to regular trasactions. Please be aware that the actual fee is determined by Tron network.";
+"请输入收款地址" = "Please enter the collection address";
+"请输入转账金额" = "Please enter the transfer amount";
+"确认" = "Confirm";
+
+"请先登录" = "Please log in first";
+"金额不能为0" = "The amount cannot be zero";
+
+"toAddress" = "To";
+"fromAddress" = "From";

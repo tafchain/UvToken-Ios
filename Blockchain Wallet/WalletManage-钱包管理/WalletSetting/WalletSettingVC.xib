@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WalletSettingVC">
+            <connections>
+                <outlet property="deleteBtn" destination="6gM-IW-0Al" id="s9G-6q-P9W"/>
+                <outlet property="tableView" destination="Ur5-zK-noq" id="FNG-lj-BZj"/>
+                <outlet property="titleLabel" destination="B3C-Be-g1p" id="8G7-PA-bWd"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Ur5-zK-noq">
+                    <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="PJn-QL-e0G"/>
+                        <outlet property="delegate" destination="-1" id="8do-EQ-ICj"/>
+                    </connections>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eMA-MR-puP" userLabel="NaviView">
+                    <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="管理钱包" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B3C-Be-g1p">
+                            <rect key="frame" x="170.5" y="11" width="73.5" height="22"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CcV-Sh-hQY">
+                            <rect key="frame" x="0.0" y="0.0" width="50" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="NFv-oD-dEf"/>
+                            </constraints>
+                            <state key="normal" image="icon_back"/>
+                            <connections>
+                                <action selector="backAction:" destination="-1" eventType="touchUpInside" id="4yj-KJ-ImK"/>
+                            </connections>
+                        </button>
+                        <view alpha="0.10000000149011612" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5rh-Mh-8fN">
+                            <rect key="frame" x="0.0" y="43" width="414" height="1"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="LmE-Gp-iEf"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="5rh-Mh-8fN" firstAttribute="leading" secondItem="eMA-MR-puP" secondAttribute="leading" id="13b-Xa-D5e"/>
+                        <constraint firstAttribute="trailing" secondItem="5rh-Mh-8fN" secondAttribute="trailing" id="45U-S2-YmQ"/>
+                        <constraint firstAttribute="bottom" secondItem="CcV-Sh-hQY" secondAttribute="bottom" id="65A-I8-1EH"/>
+                        <constraint firstItem="B3C-Be-g1p" firstAttribute="centerX" secondItem="eMA-MR-puP" secondAttribute="centerX" id="FZa-IX-kZP"/>
+                        <constraint firstAttribute="bottom" secondItem="5rh-Mh-8fN" secondAttribute="bottom" id="IYa-Ky-enl"/>
+                        <constraint firstItem="CcV-Sh-hQY" firstAttribute="centerY" secondItem="eMA-MR-puP" secondAttribute="centerY" id="QTU-rd-LvQ"/>
+                        <constraint firstItem="B3C-Be-g1p" firstAttribute="centerY" secondItem="eMA-MR-puP" secondAttribute="centerY" id="RYo-di-n4k"/>
+                        <constraint firstAttribute="height" constant="44" id="frK-pR-Wup"/>
+                        <constraint firstItem="CcV-Sh-hQY" firstAttribute="top" secondItem="eMA-MR-puP" secondAttribute="top" id="nJy-Aw-3w5"/>
+                        <constraint firstItem="CcV-Sh-hQY" firstAttribute="leading" secondItem="eMA-MR-puP" secondAttribute="leading" id="xOg-FZ-OBO"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6gM-IW-0Al">
+                    <rect key="frame" x="20" y="788" width="374" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="EVN-2b-gjw"/>
+                    </constraints>
+                    <state key="normal" title="删除钱包">
+                        <color key="titleColor" systemColor="systemRedColor"/>
+                    </state>
+                    <connections>
+                        <action selector="deleteWalletAction:" destination="-1" eventType="touchUpInside" id="J1N-Mq-W0D"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="eMA-MR-puP" secondAttribute="trailing" id="5nx-us-Zw4"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="6gM-IW-0Al" secondAttribute="trailing" constant="20" id="ELa-Zm-vBh"/>
+                <constraint firstItem="eMA-MR-puP" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="Klx-to-yYc"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="Ur5-zK-noq" secondAttribute="bottom" id="bC6-aF-PKV"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="6gM-IW-0Al" secondAttribute="bottom" constant="30" id="bHt-QD-WC3"/>
+                <constraint firstItem="Ur5-zK-noq" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="isb-Hz-rmi"/>
+                <constraint firstItem="Ur5-zK-noq" firstAttribute="top" secondItem="eMA-MR-puP" secondAttribute="bottom" id="k5S-P7-C9I"/>
+                <constraint firstItem="Ur5-zK-noq" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="lEd-PA-PpQ"/>
+                <constraint firstItem="6gM-IW-0Al" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="nhs-u8-7op"/>
+                <constraint firstItem="eMA-MR-puP" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="pSY-A6-iBA"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="152.67857142857142"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_back" width="22" height="22"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

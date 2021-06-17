@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddingCurrencyView">
+            <connections>
+                <outlet property="baseView" destination="iN0-l3-epB" id="RLl-py-gEK"/>
+                <outlet property="contentView" destination="r0P-A1-xjw" id="JLd-J8-SDY"/>
+                <outlet property="contentViewConstraint" destination="vOn-q1-cmN" id="jgY-W2-c9v"/>
+                <outlet property="tipsLabel" destination="aKK-fY-Fqa" id="wfX-b8-1iY"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.40000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XpF-5U-GKk">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r0P-A1-xjw">
+                    <rect key="frame" x="35" y="299.5" width="344" height="180"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="正在为您创建钱包中..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aKK-fY-Fqa">
+                            <rect key="frame" x="86" y="30" width="172.5" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="c71-hG-yvA"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="aKK-fY-Fqa" firstAttribute="centerX" secondItem="r0P-A1-xjw" secondAttribute="centerX" id="BAH-iO-5Na"/>
+                        <constraint firstAttribute="height" constant="180" id="vOn-q1-cmN"/>
+                        <constraint firstItem="aKK-fY-Fqa" firstAttribute="top" secondItem="r0P-A1-xjw" secondAttribute="top" constant="30" id="yz6-um-6L1"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="r0P-A1-xjw" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="35" id="27m-CH-X56"/>
+                <constraint firstItem="XpF-5U-GKk" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="4ND-6I-sN2"/>
+                <constraint firstItem="r0P-A1-xjw" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" multiplier="1:1.15" id="6NJ-uH-RiC"/>
+                <constraint firstAttribute="bottom" secondItem="XpF-5U-GKk" secondAttribute="bottom" id="8i0-dP-P4k"/>
+                <constraint firstItem="XpF-5U-GKk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="FaO-3F-F43"/>
+                <constraint firstItem="XpF-5U-GKk" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="fcC-wp-sFj"/>
+                <constraint firstItem="r0P-A1-xjw" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="oEN-vr-xOB"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="109.82142857142857"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
